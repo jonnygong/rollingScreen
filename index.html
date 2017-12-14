@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<title>滚屏</title>
+<meta name="keywords" content="年会,节庆,活动,常用,数字滚动,抽奖,js特效代码" />
+<meta name="description" content="年会节庆等活动常用数字滚动抽奖js特效代码。" />
+
+</head>
+<body>
+<!--<div>-->
+    <!--&lt;!&ndash; 这就是点击事件的触发，其中 theme-login是可以修改的 &ndash;&gt;-->
+    <!--<a class="login btn" href="javascript:;">点击查看效果</a>-->
+<!--</div>-->
+<div class="hide-body">
+    <div class="close-window">
+        <!-- 关闭窗口，也就是触发关闭div的事件-->
+        <a href="javascript:;" title="关闭" class="close">×</a>
+        <h3>中奖纪录</h3>
+    </div>
+    <!-- 中间主体显示div 可以增加其他的样式-->
+    <div class="login-body dform" id="content_log">
+
+        <!--<ul>-->
+        <!--<p>第一场</p>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--</ul>-->
+        <!--<ul>-->
+        <!--<p>第二场</p>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--</ul>-->
+        <!--<ul>-->
+        <!--<p>第三场</p>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--<li>000</li>-->
+        <!--</ul>-->
+    </div>
+    <!-- 底部的div -->
+    <!--<div class="bottom">-->
+        <!--<hr>-->
+        <!--<pre>底部部分文字显示哦</pre>-->
+    <!--</div>-->
+</div>
+
+<div class="body-color"></div>
+
+
+<div class="wrap">
+    <!--<div class="logo"><img src="./images/logo.png" alt=""></div>-->
+  <div class="prize_con">
+      <!--<p class="prize_grade"><span>开始抽奖</span> <i>0</i>元</p>-->
+        <div class="prize_list vetically">
+          <ul>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+          </ul>
+        </div>
+      <div class="recode">
+        <h3 class="title">第一轮</h3>
+          <div id="content"></div>
+          <!--<ul>-->
+              <!--<p>第一场</p>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+          <!--</ul>-->
+          <!--<ul>-->
+              <!--<p>第二场</p>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+          <!--</ul>-->
+          <!--<ul>-->
+              <!--<p>第三场</p>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+              <!--<li>000</li>-->
+          <!--</ul>-->
+      </div>
+      <div class="button">
+          <p class="start" data-type="first">第一轮</p>
+          <p class="start" data-type="second">第二轮</p>
+          <p class="start" data-type="third">第三轮</p>
+          <p class="log">查看</p>
+      </div>
+
+      <!--<img src="images/prize_start.png" alt="">-->
+      <!--<ul class="prize_set">-->
+          <!--<li class="set_grade">奖等-->
+            <!--<select id="set_grade">-->
+              <!--<option>选择奖等</option>-->
+              <!--<option>特等奖</option>-->
+              <!--<option>一等奖</option>-->
+              <!--<option>二等奖</option>-->
+              <!--<option>三等奖</option>-->
+            <!--</select>-->
+          <!--</li>-->
+          <!--<li class="set_people">人数<input type="tel" placeholder="输入中奖人数" id="prizeCount"></li>-->
+          <!--<li class="set_money">金额<input type="tel" placeholder="输入中奖金额" id="prizeMoney"></li>-->
+      <!--</ul>-->
+  </div>
+</div>
+<input type="hidden" value="0" id="prize_btn">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" href="./css/style.css">
+</body>
+</html>

@@ -1,0 +1,301 @@
+*{  margin:0;padding:0;}
+img{display:block;}
+i{font-style:normal;}
+.vetically{
+    justify-content:center;
+    align-items:center;
+    display:-webkit-flex;
+}
+.prize_con{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.prize_grade{
+    font-size:98px;
+    color: #000333;
+    text-align: center;
+    margin: 60px auto 0;
+}
+.prize_list{
+    width:55%;
+    height:200px;
+    margin: 160px auto 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.prize_list ul{
+    width:90%;
+    font-size:0;
+    background-color: #fff;
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.5;opacity: 0.5;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.prize_list li{
+    display:inline-block;
+    font-size:45px;
+    color:#000333;
+    text-align: center;
+    width:20%;
+    line-height:70px;
+    font-family:Arial;
+}
+.recode {
+    background-color: #fff;
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.5;opacity: 0.5;
+    width:50%;
+    height:330px;
+    margin: 10px auto 55px;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.recode h3{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.recode ul{
+    width: 100%;
+
+    /*height: 100px;*/
+    /*padding: 0 10%;*/
+}
+.recode ul p{
+    font-size: 20px;
+    margin-top:10px;
+}
+.recode ul li{
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    /*display:inline-block;*/
+    /*line-height: 20px;*/
+}
+.button{
+    width: 880px;
+    height: 50px;
+    margin:0 auto;
+}
+.start, .second, .third, .log{
+    width: 150px;
+    height: 50px;
+    margin:0 30px;
+    cursor:pointer;
+    /*background: transparent;*/
+    font-size: 30px;
+    color: #fff;
+    border: 5px solid #fff;
+    line-height: 45px;
+    text-align: center;
+    border-radio: 25px;
+    float: left;
+
+}
+.prize_set{
+    position: absolute;
+    right: 60px;
+    bottom:140px;
+    font-size: 16px;
+    color: #f7f3e8;
+    line-height: 30px;
+}
+.prize_set li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.set_grade select,.set_people input, .set_money input{
+    background: #fff;
+    width:110px;
+    height:36px;
+    border:1px solid #8f0000;
+    margin-left: .1rem;
+    color: #000;
+    padding-left:10px;
+}
+
+.log{
+    /*position: relative;*/
+    /*bottom:60px;*/
+    /*left: -70%;*/
+}
+
+
+
+
+.btn {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    min-width: 52px;
+    padding: 0 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    color: #666;
+    background-color: #f5f5f5;
+    background: -webkit-linear-gradient(top, #F5F5F5, #F1F1F1);
+    background: -moz-linear-gradient(top, #F5F5F5, #F1F1F1);
+    background: linear-gradient(top, #F5F5F5, #F1F1F1);
+}
+
+.login-body {
+    padding: 60px 15px;
+    color: #444;
+    height: 458px;
+    overflow:auto;
+}
+
+.login-body h3{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.login-body ul{
+    width: 100%;
+
+    /*height: 100px;*/
+    /*padding: 0 10%;*/
+}
+.login-body ul p{
+    font-size: 20px;
+    margin-top:10px;
+}
+.login-body ul li{
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    /*display:inline-block;*/
+    /*line-height: 20px;*/
+}
+
+.ipt {
+    border: solid 1px #d2d2d2;
+    border-left-color: #ccc;
+    border-top-color: #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 0 #f8f8f8;
+    background-color: #fff;
+    padding: 4px 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #555;
+    width: 180px;
+    vertical-align: baseline;
+}
+
+.dform {
+    padding: 20px 60px 40px;
+    text-align: center;
+}
+
+.signin {
+    margin: -50px -20px -50px 90px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.signin h4 {
+    color: #999;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.signin li {
+    padding-left: 80px;
+    margin-bottom: 15px;
+}
+
+.signin ol {
+    list-style-type: none;
+}
+
+.signin li strong {
+    float: left;
+    margin-left: -80px;
+    width: 80px;
+    text-align: right;
+    line-height: 32px;
+}
+
+.signin .btn {
+    margin-bottom: 10px;
+}
+
+.signin p {
+    font-size: 12px;
+    color: #999;
+}
+
+.theme-desc,.theme-version {
+    padding-top: 0
+}
+
+.body-color {
+    z-index: 9998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+    filter: alpha(opacity = 40);
+    display: none
+}
+
+.hide-body {
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 618px;
+    margin: -180px 0 0 -330px;
+    border-radius: 5px;
+    border: solid 2px #666;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px #666;
+    margin: -309px 0 0 -500px;
+}
+
+.close-window {
+    border-bottom: 1px solid #ddd;
+    padding: 22px;
+    position: relative;
+}
+
+.bottom {
+    margin-top: 180px;
+}
+
+.close-window .close {
+    float: right;
+    color: #999;
+    padding: 5px;
+    margin: -2px -5px -5px;
+    font: bold 14px/14px simsun;
+    text-shadow: 0 1px 0 #ddd
+}
+
+.close-window .close:hover {
+    color: #444;
+}
